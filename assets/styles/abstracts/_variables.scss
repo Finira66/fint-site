@@ -1,0 +1,76 @@
+
+:root {
+  --color-primary: #fbc920;
+  --color-secondary: #0c5dd7;
+  --color-light: #e0f1ff;
+  --color-dark: #222;
+  --color-gray: #777;
+  --color-text: #222;
+  --body-bg: #fff;
+  --font-family: Inter, system-ui, -apple-system, Arial, sans-serif;
+  --font-size: 14px;
+  --font-weight: normal;
+  --line-height: 1.45;
+  --font-size-big: 42px;
+  --font-size-large: 30px;
+  --font-size-medium: 18px;
+  --line-height-large: 1.3;
+  --layout-padding: 20px;
+  --layout-min-width: 320px;
+  --layout-max-width: -webkit-calc(1290px + var(--layout-padding) * 2);
+  --layout-max-width: -moz-calc(1290px + var(--layout-padding) * 2);
+  --layout-max-width: calc(1290px + var(--layout-padding) * 2);
+  --layout-max-width-mobile: 500px;
+  --grid-gutter: 30px;
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --transition: 300ms var(--ease-in-out);
+  --header-height: 90px;
+  --border-radius: 100px
+}
+
+@media (max-width: 767px) {
+  :root {
+    --font-size-big: 30px;
+    --font-size-large: 24px;
+    --line-height-large: 1.2;
+    --font-size-medium: 16px
+  }
+}
+
+@media (max-width: 1099px) {
+  :root {
+    --layout-padding: 42px
+  }
+}
+
+@media (max-width: 991px) {
+  :root {
+    --layout-padding: 34px
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --layout-padding: 10px
+  }
+}
+
+@media (max-width: 1099px) {
+  :root {
+    --grid-gutter: 20px
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --header-height: 70px
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --border-radius: 45px
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "info": "Trade Forex and {earn} more",
+  "earn": "earn x50",
+  "how-work": "Will price go {up} or {down}?",
+  "up": "Up",
+  "down": "Down",
+  "daily-change": "Daily change",
+  "trade": {
+    "description": "Get additional income by predicting the moves of crypto and currencies"
+  },
+  "register": {
+    "title": "Apply now and get up to 100% bonus"
+  },
+  "counts": {
+    "1": {
+      "title": "Non-stop trading",
+      "text": "Including weekends"
+    },
+    "2": {
+      "title": "Minimum deposit",
+      "text": "Affordable for everyone"
+    },
+    "3": {
+      "title": "Free practice account",
+      "text": "Suitable for beginners"
+    },
+    "4": {
+      "title": "Trading assets",
+      "text": "Stocks, crypto, commodities"
+    }
+  },
+  "start-trading": "Start Trading Forex",
+  "steps": {
+    "1": {
+      "title": "Sign up",
+      "text": "Registration takes less than\na minute"
+    },
+    "2": {
+      "title": "Fund your account",
+      "text": "You get immediate bonus\nupon request"
+    },
+    "3": {
+      "title": "Trade & Withdraw",
+      "text": "Trade, earn and withdraw\nyour profit!"
+    }
+  },
+  "advantages": {
+    "1": "The future of money",
+    "2": "on Trustpilot",
+    "3": "Digital solutions & insurance"
+  },
+  "error-email": "Please enter a valid e-mail.",
+  "error-password": "Password must be at least 8 symbols + 1 digit",
+  "email-already-taken": "The email has already been taken."
+}

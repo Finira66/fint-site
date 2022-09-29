@@ -1,0 +1,47 @@
+{
+  "how-work": "How does it work?",
+  "daily-change": "Daily change",
+  "trade": {
+    "description": "Get additional income by predicting the moves of crypto and currencies"
+  },
+  "register": {
+    "title": "Apply now and get up to 100% bonus"
+  },
+  "counts": {
+    "1": {
+      "title": "Non-stop trading",
+      "text": "Including weekends"
+    },
+    "2": {
+      "title": "Minimum deposit",
+      "text": "Affordable for everyone"
+    },
+    "3": {
+      "title": "Free practice account",
+      "text": "Suitable for beginners"
+    },
+    "4": {
+      "title": "Trading assets",
+      "text": "Stocks, crypto, commodities"
+    }
+  },
+  "steps": {
+    "1": {
+      "title": "Sign up",
+      "text": "Registration takes less than a minute"
+    },
+    "2": {
+      "title": "Fund your account",
+      "text": "You get immediate bonus upon request"
+    },
+    "3": {
+      "title": "Trade & Withdraw",
+      "text": "Trade, earn and withdraw your profit!"
+    }
+  },
+  "advantages": {
+    "1": "The future of money",
+    "2": "on Trustpilot",
+    "3": "Digital solutions & insurance"
+  }
+}

@@ -1,0 +1,243 @@
+.group {
+  background: var(--color-light) url(@/assets/images/bg.svg?67a72452) no-repeat top/cover;
+  padding-bottom: 267px
+}
+
+@media (max-width: 1099px) {
+  .group {
+    background-image: url(@/assets/images/bg-large.svg?1fe34bf6)
+  }
+}
+
+@media (max-width: 991px) {
+  .group {
+    background-image: url(@/assets/images/bg-medium.svg?e1283085);
+    padding-bottom: 214px
+  }
+}
+
+@media (max-width: 767px) {
+  .group {
+    padding-bottom: 114px;
+    background-image: url(@/assets/images/bg-small.svg?6128fef5);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center 77%
+  }
+}
+
+.group__holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -moz-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin-bottom: 120px;
+  margin-right: -20px;
+}
+
+@media (max-width: 1099px) {
+  .group__holder {
+    display: block;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .group__holder {
+    margin-bottom: 51px
+  }
+}
+
+.group__panel {
+  padding-top: 152px;
+  width: 57.4422%;
+  color: #fff;
+  margin-top: calc(-1 * var(--header-height));
+  position: relative;
+  z-index: 2;
+  @media (max-width: 1460px) {
+    width: 51%;
+  }
+}
+
+@media (max-width: 1099px) {
+  .group__panel {
+    width: 100%
+  }
+}
+
+@media (max-width: 767px) {
+  .group__panel {
+    padding-top: 110px
+  }
+}
+
+.group__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #306bcf;
+  margin-left: calc(87% - 50vw);
+  border-radius: 0 0 var(--border-radius) 0;
+  overflow: hidden
+}
+
+@media (max-width: 1099px) {
+  .group__bg {
+    margin-left: calc(-1 * var(--layout-padding))
+  }
+}
+
+@media (max-width: 767px) {
+  .group__bg {
+    margin-right: calc(-1 * var(--layout-padding))
+  }
+}
+
+.group__bg:after, .group__bg:before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -webkit-background-size: cover;
+  background-size: cover
+}
+
+.group__bg:before {
+  width: 952px;
+  height: 740px;
+  bottom: 0;
+  left: 0;
+  background-image: url(@/assets/images/blur-dark.png?b947499f)
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .group__bg:before {
+    left: -100px
+  }
+}
+
+@media (max-width: 767px) {
+  .group__bg:before {
+    background-image: url(@/assets/images/blur-dark-small.png?16ad5657);
+    width: 360px;
+    height: 720px
+  }
+}
+
+.group__bg:after {
+  width: 756px;
+  height: 708px;
+  background-image: url(@/assets/images/blur-light.png?04afc7e8);
+  top: 0;
+  right: 0
+}
+
+@media (max-width: 360px) {
+  .group__bg:after {
+    background-image: url(@/assets/images/blur-light-small.png?86ff841e);
+    width: 360px;
+    height: 601px
+  }
+}
+
+.group__inner {
+  position: relative;
+  z-index: 1;
+  padding: 0 0 0 35px;
+  @media (max-width: 1099px) {
+    padding: 0;
+  }
+}
+
+.group__text {
+  padding-right: 25px;
+  @media (max-width: 1099px) {
+    margin-left: 75px
+  }
+  @media (max-width: 767px) {
+    margin-left: 21px
+  }
+}
+
+.group__title {
+  font-size: 68px;
+  line-height: 1;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 54px
+}
+
+@media (min-width: 1100px) and (max-width: 1299px) {
+  .group__title {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 767px) {
+  .group__title {
+    font-size: 34px;
+    margin-bottom: 31px
+  }
+}
+
+.group__title span {
+  color: var(--color-primary)
+}
+
+.group__title-line {
+  font-size: 46px;
+  position: absolute;
+  left: -83px;
+  bottom: -35px
+}
+
+@media (max-width: 767px) {
+  .group__title-line {
+    font-size: 23px;
+    left: -42px;
+    bottom: -18px
+  }
+}
+
+.group__desc {
+  max-width: 540px;
+  font-weight: 600;
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+  margin-bottom: 64px
+}
+
+@media (max-width: 1460px) {
+  .group__desc {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .group__desc {
+    margin-bottom: 64px
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1099px) {
+  .group__desc {
+    max-width: 680px
+  }
+}
+
+@media (max-width: 767px) {
+  .group__desc {
+    line-height: 1.2;
+    margin-bottom: 46px
+  }
+}

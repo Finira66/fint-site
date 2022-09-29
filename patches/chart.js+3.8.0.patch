@@ -1,0 +1,23 @@
+diff --git a/node_modules/chart.js/package.json b/node_modules/chart.js/package.json
+index 5b996b2..bcd7cd1 100644
+--- a/node_modules/chart.js/package.json
++++ b/node_modules/chart.js/package.json
+@@ -34,6 +34,18 @@
+     "helpers/**/*.js",
+     "helpers/**/*.d.ts"
+   ],
++  "exports": {
++    ".": {
++      "import":  "./dist/chart.esm.js",
++      "require":  "./dist/chart.js",
++      "default": "./dist/chart.js"
++    },
++    "./helpers": {
++      "require": "./helpers/helpers.js",
++      "default": "./helpers/helpers.js",
++      "import": "./helpers/helpers.esm.js"
++    }
++  },
+   "scripts": {
+     "autobuild": "rollup -c -w",
+     "build": "rollup -c",

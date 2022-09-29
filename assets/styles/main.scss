@@ -1,0 +1,267 @@
+// abstracts
+@import "abstracts/variables";
+
+// layout
+@import "layout/header";
+@import "layout/footer";
+
+// base
+@import "base/reset";
+@import "base/typography";
+
+// components
+@import "components/button";
+@import "components/group";
+@import "components/form";
+@import "components/calc";
+@import "components/counts";
+@import "components/steps";
+@import "components/companies";
+
+// ui
+@import "ui/dropdown";
+@import "ui/select";
+
+
+:focus {
+  outline: none !important
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none
+}
+
+html {
+  font-size: 16px
+}
+
+body {
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  min-width: var(--layout-min-width);
+  color: var(--color-text)
+}
+
+body.overflow-hidden {
+  overflow: hidden
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 34px;
+  margin-bottom: 70px;
+  line-height: 1;
+  font-family: var(--font-secondary);
+  font-weight: 400
+}
+
+@media (max-width: 767px) {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 40px
+  }
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0
+}
+
+h1 {
+  font-size: 84px
+}
+
+h2 {
+  font-size: 40px
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 32px;
+    line-height: 1.1
+  }
+}
+
+.container {
+  width: 100%;
+  padding-right: var(--layout-padding);
+  padding-left: var(--layout-padding);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--layout-max-width)
+}
+
+
+.logo__icon {
+  font-size: 45px
+}
+
+@media (max-width: 767px) {
+  .logo__icon {
+    font-size: 32px
+  }
+}
+
+.bottom {
+  margin-top: -131px;
+  padding-bottom: 120px
+}
+
+@media (max-width: 1099px) {
+  .bottom {
+    margin-top: -148px
+  }
+}
+
+@media (max-width: 991px) {
+  .bottom {
+    margin-top: -95px
+  }
+}
+
+@media (max-width: 767px) {
+  .bottom {
+    margin-top: -64px;
+    padding-bottom: 45px
+  }
+}
+
+
+.flat-register-form {
+  margin-left: 0;
+  border-radius: 100px 100px 0 0;
+  background: linear-gradient(180deg, #3D81F5 0%, #29539B 100%);
+  padding: 37px 220px 47px 220px;
+
+  @media (max-width: 1200px) {
+    padding: 37px 80px 59px 80px;
+  }
+  @media (max-width: 992px) {
+    padding: 37px 45px 59px 45px;
+  }
+  @media (max-width: 768px) {
+    border-radius: 45px 45px 0 0;
+    padding: 31px 20px 30px;
+  }
+
+  .form__badge {
+    right: 220px;
+    top: -14px;
+
+    @media (max-width: 1200px) {
+      right: 80px;
+    }
+
+    @media (max-width: 768px) {
+      right: 30px;
+    }
+
+  }
+
+  .form__title {
+    max-width: none;
+    color: #FFFFFF;
+    margin-bottom: 43px;
+    padding-right: 200px;
+
+    @media (max-width: 576px) {
+      padding-right: 180px;
+    }
+  }
+
+  .form__holder {
+    max-width: 100%;
+  }
+
+  .form__field_email {
+    width: 45%;
+    @media (max-width: 992px) {
+      width: 41%;
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}
+
+.error {
+  margin: 8px 0 0 0;
+  color: #fff;
+}
+
+.input-prefix, .input-invest {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  @media (max-width: 767px) {
+    font-size: 12px;
+    line-height: 140%;
+  }
+}
+
+.input-invest {
+  width: 100%;
+  padding: 7px 55px 7px 24px;
+  background: #243E6A;
+  border: 2px solid #3D81F5;
+  border-radius: 8px;
+  min-height: 40px;
+  @media (max-width: 767px) {
+    min-height: 35px;
+  }
+}
+
+.input-box {
+  position: relative;
+}
+
+.input-size {
+  background: #3D81F5;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #FFF;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  position: absolute;
+  padding: 4px 5px;
+  min-height: 30px;
+  @media (max-width: 767px) {
+    font-size: 12px;
+    line-height: 140%;
+    min-height: 25px;
+  }
+}
+
+.input-prefix {
+  position: absolute;
+  left: 13px;
+  top: 49%;
+  transform: translateY(-50%);
+}
